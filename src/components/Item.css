@@ -1,0 +1,49 @@
+.card {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  input,
+  select {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .delete-button {
+    width: 100%;
+    padding: 10px;
+    background: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+  }
+  
+  .delete-button:hover {
+    background: #c82333;
+  }
+  
